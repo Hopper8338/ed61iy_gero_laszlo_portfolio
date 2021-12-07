@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+}
+
+.mellek {
+  width: 20%;
+  padding: 12px;
+  background-color: black;
+  border: 2px solid red;
+}
+
+.sor0 {
+  	display: flex;
+  	padding: 12px;
+	border: black;
+  	color: white;
+}
+
+.leiras {
+	font-family: 'Castoro', cursive;
+	color: white;
+	border: black;
+	margin: 12px;
+}
+
+.header {
+	font-family: 'Castoro', cursive;
+	word-break: break-all;
+	text-align: center;
+}
+
+.kep1 {
+	width: 100%
+}
+
+.nav {
+  	width: 100%;
+  	background-color: black;
+  	overflow: auto;
+}
+
+.nav a {
+	font-family: 'Castoro', cursive;		
+  	float: left;
+  	text-align: center;
+  	padding: 12px;
+  	color: white;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+
+.active {
+  background-color: red;
+}
+
+.sor {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: black;
+}
+
+.oszlop {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.oszlop img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Galéria */
+
+div.galeria {
+  /* margin: 5px; */
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+
+}
+
+div.galeria img {
+  width: 180px;
+  height: 512px;
+}
+
+div.galeria img:hover {
+  border: 3px solid red;
+}
+
+
+.galeria img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/*
+div.galeria:hover {
+  border: 5px solid red;
+}
+*/
+
+.megnevezes {
+	color: white;
+	margin-top: 8px;
+	margin-bottom: 6px;
+	background: black;
+	padding: 2px;
+	font-family: 'Castoro', cursive;
+	text-align: center;
+	font-size: 20;
+}
+
+
+.eler {
+	font-family: 'Castoro', cursive;
+	padding: 3px white;
+	color: white;
+	display: block;
+	margin-left: 500px;
+	margin-right: 500px;
+	background: black;
+	font-size: 40;
+	text-align: center;
+	border: 2px solid red;
+	width: 50%;
+
+}
+
+.eleroszlop {
+  float: left;
+  width: 33.33%;
+}
+
+.eleroszlop img {
+  width: 20%;
+  height: 20%;
+}
+
+.eleroszlop img:hover {
+	border: 5px solid red;
+}
+
+.elersor:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 3+1 */
+
+.harompluszegy img {
+	width: 50%;
+	height: 50%;
+}
+
+.harompluszegy img:hover {
+	width: 75%;
+	height: 75%;
+}
+
+
+.harom_leiras {
+	text-align: left;
+	color: white;
+}
+
+.haromegy:hover {
+	border: 2px solid red;
+}
